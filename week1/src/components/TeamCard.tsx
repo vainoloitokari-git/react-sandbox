@@ -11,7 +11,7 @@ export const TeamCard = ({ name, role }: CardProps) => {
   return (
     <div className="bg-gradient-to-br from-purple-500 to-pink-500 text-white rounded-xl shadow-lg p-6 w-64">
       <h2 className="text-xl font-semibold">{name}</h2>
-      <p className="text-gray-600">{role}</p>
+      <p className="text-black">{role}</p>
 
       <div className="mt-4">
         <p className="font-medium">Votes: {votes}</p>
